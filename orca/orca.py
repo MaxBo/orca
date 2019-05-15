@@ -11,7 +11,8 @@ except ImportError:
 import logging
 import time
 import warnings
-from collections import Callable, namedtuple
+from collections.abc import Callable
+from collections import namedtuple
 from contextlib import contextmanager
 from functools import wraps
 
