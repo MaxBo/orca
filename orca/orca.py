@@ -11,13 +11,8 @@ except ImportError:
 import logging
 import time
 import warnings
-<<<<<<< HEAD
-from collections.abc import Callable
-from collections import namedtuple
-=======
 from collections import namedtuple
 from collections.abc import Callable
->>>>>>> UDST_orca/toolz-patch
 from contextlib import contextmanager
 from functools import wraps
 
